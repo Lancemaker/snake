@@ -45,9 +45,9 @@ var Main ={
 };
 function tick () {   
     if(snake.isAlive){
-        if(board.checkBounds(snake.head.x,snake.head.y)){                     
-            snake.Move(snake.body);
-            snake.head.angle =  buffer;   
+        if(board.checkBounds(snake.head.x,snake.head.y)){    
+            snake.head.angle =  buffer;                  
+            snake.Move(snake.body);              
         } 
         else{
             snake.isAlive=false;
