@@ -1,0 +1,7 @@
+#gameWindow {        
+    
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
